@@ -1,0 +1,15 @@
+{
+  "name": "site-tester-bot",
+  "version": "2.0.0",
+  "description": "Modular repeatable site tester (for domains you own)",
+  "main": "testbot.js",
+  "scripts": {
+    "start": "node testbot.js",
+    "test": "node --check testbot.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
